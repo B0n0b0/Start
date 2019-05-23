@@ -1,0 +1,9 @@
+.EventPage
+{
+    margin: auto;
+}
+
+.EventPage > p
+{
+    text-align: center;
+}

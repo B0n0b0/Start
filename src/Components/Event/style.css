@@ -1,0 +1,30 @@
+.event-banner-image {
+    position: relative;
+    height: 250px;
+    border: 1px solid grey;
+    background-position: center;
+    background-size: cover;
+}
+
+.event-edit-input {
+    margin-top: 15px !important;
+}
+
+.artist-search {
+    margin-top: 15px;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.artist-cell {
+    text-align: center !important;
+}
+
+.artist-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}

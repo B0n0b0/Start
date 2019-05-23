@@ -1,0 +1,20 @@
+.event-list-image {
+    height: 250px;
+}
+
+.event-link {
+    text-decoration: none;
+}
+
+.event-card {
+    padding: 5px;
+    /*margin: 40px 5px;*/
+}
+
+.event-card-header {
+    padding: 10px 20px !important;
+}
+
+.event-card-header p {
+    margin: 0;
+}

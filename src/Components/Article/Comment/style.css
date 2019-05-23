@@ -1,0 +1,40 @@
+.new-comment-input input {
+    font-size: 1em;
+    background-color: #EEEEEE;
+    padding: 10px 15px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.li-comment {
+    padding: 10px !important;
+}
+
+.avatar-comment {
+    margin-right: 10px;
+}
+
+.comment-message {
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.comment-user-name {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #f57c00;
+    text-decoration: none;
+}
+
+.comment-more {
+    float: right;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}

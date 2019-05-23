@@ -1,0 +1,53 @@
+.event-edit {
+    position: relative;
+}
+
+.event-btn {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #f57c00;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 16px;
+    line-height: 1.1875em;
+    text-transform: none;
+}
+
+.event-btn:hover {
+    background-color: #e65100;
+}
+
+.event-save-btn {
+    margin-bottom: 25px;
+    font-size: 1.2em !important;
+    border: none;
+    padding: 10px 20px !important;
+}
+
+.event-tabs {
+    padding: 20px 0 20px 0;
+}
+
+.event-tabs h1 {
+    margin: 40px 5px 10px 5px;
+}
+
+.create-event-button {
+    text-decoration: none;
+    color: white;
+    background-color: #f57c00;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    line-height: 1.1875em;
+    text-transform: none;
+}
+
+.create-event-button:hover {
+    background-color: #e65100;
+}

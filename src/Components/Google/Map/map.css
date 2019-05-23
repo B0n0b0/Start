@@ -1,0 +1,4 @@
+.MapDiv > div {
+    position : relative  !important;
+    padding-bottom: 30px;
+}

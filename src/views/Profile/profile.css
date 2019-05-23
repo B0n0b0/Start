@@ -1,0 +1,212 @@
+.profile-banner {
+    position: relative;
+    padding: 20px 0;
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*padding: 20px 0;*/
+    /*border-radius: 4px;*/
+}
+
+/*.profile-banner-btn {*/
+    /*position: absolute;*/
+    /*bottom: 5px;*/
+    /*right: 5px;*/
+/*}*/
+
+.profile-page .banner {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.profile-banner.group {
+    color: white;
+}
+
+.profile-banner .edit-button {
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #f57c00;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    line-height: 1.1875em;
+    text-transform: none;
+}
+
+.profile-banner .edit-button:hover {
+    background-color: #e65100;
+}
+
+.profile-banner .suivre-button {
+    position: absolute;
+    right: 120px;
+    text-decoration: none;
+    color: white;
+    background-color: #f57c00;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    line-height: 1.1875em;
+    text-transform: none;
+}
+
+.profile-banner .suivre-button:hover {
+    background-color: #e65100;
+}
+
+.profile-banner .follower-list {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 16px;
+    line-height: 1.1875em;
+    text-transform: none;
+}
+.profile-banner .follower-list .number-list {
+    cursor: pointer;
+    color: #f57c00;
+    font-size: 14px;
+} 
+
+.profile-banner .follower-list .number-list:hover {
+    color: #e65100;
+    text-decoration: underline;
+} 
+
+.profile-user-name {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}
+
+.profile-user-description {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 50%;
+}
+
+.profile-menu {
+    background-color: #f57c00 !important;
+}
+
+.profile-menu-button {
+    color: white !important;
+}
+
+.profile-page {
+    position: relative;
+    margin-top: -50px;
+}
+
+.profile-page .user-username {
+    margin: 30px 0;
+}
+
+.profile-page .user-description {
+    position: relative;
+    margin: 0;
+    color: #616161;
+}
+
+.profile-page .user-description.no-description:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profile-page .user-description .icon {
+    position: absolute;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+.profile-tabs {
+    margin-top: 15px;
+}
+
+.profile-tabs button {
+    max-width: none;
+}
+
+.profile-tabs .nav-button span {
+    font-size: 1.2em !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #616161;
+}
+
+.profile-tabs .nav-button.selected {
+    color: #616161;
+    border-bottom: 3px solid #F57C00;
+}
+
+.profile-expand {
+    box-shadow: none !important;
+    border: 1px solid #9E9E9E !important;
+    margin: 15px 0 !important;
+}
+
+.profile-identity-form {
+    width: 100%;
+}
+
+.profile-identity-form div {
+    margin-top: 10px;
+}
+
+.profile-card-list {
+    box-shadow: none !important;
+}
+
+.profile-page .article-item {
+    margin: 0;
+}
+
+.modal {
+    width: auto;
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+    text-align: center;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}

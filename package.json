@@ -1,0 +1,46 @@
+{
+  "name": "start_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.5.1",
+    "@material-ui/icons": "^1.1.1",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.18.0",
+    "google-maps-react": "^2.0.2",
+    "material-ui-next-pickers": "^0.0.15",
+    "moment": "^2.22.2",
+    "paypal-checkout": "^4.0.239",
+    "prop-types": "^15.6.0",
+    "react": "^16.6.3",
+    "react-autosuggest": "^9.3.4",
+    "react-dom": "^16.6.3",
+    "react-geocode": "^0.1.2",
+    "react-infinite-scroller": "^1.2.2",
+    "react-moment": "^0.8.4",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-places-autocomplete": "^7.2.0",
+    "react-prop-types": "^0.4.0",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "react-slick": "^0.23.2",
+    "react-youtube": "^7.8.0",
+    "reactjs-popup": "^1.3.1",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

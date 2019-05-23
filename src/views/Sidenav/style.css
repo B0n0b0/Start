@@ -1,0 +1,122 @@
+.page {
+    margin-top: 50px;
+}
+
+.page.open {
+    margin-left: 330px;
+}
+
+@media screen and (max-width: 769px) {
+    .page {
+        /*margin-top: ;*/
+    }
+
+    .page.open {
+        margin-left: 0;
+    }
+}
+
+.page.close {
+    margin-left: 0;
+}
+
+
+.sidenav {
+    color: black;
+    /*z-index: 1;*/
+}
+
+.sidenav div {
+    /*background-color: #212121 !important;*/
+    /*margin-top: 64px;*/
+    /*padding-top: 20px;*/
+}
+
+/*.sidenav.open {*/
+/*width: 240px;*/
+/*}*/
+
+.sidenav.close {
+    display: none;
+}
+
+.user-sidenav {
+    width: 330px !important;
+    background-color: #616161;
+    color: white;
+    padding: 0 20px 20px 20px;
+    cursor: pointer;
+}
+
+.user-sidenav:hover {
+    background-color: #424242;
+}
+
+.divider-margin-bottom {
+    margin-bottom: 10px !important;
+}
+
+.user-sidenav .user-info {
+    position: relative;
+    height: 140px;
+}
+
+.user-sidenav .user-username {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 40%;
+    left: 110px;
+    font-size: 1.6em;
+}
+
+.user-sidenav .user-name {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 60%;
+    left: 110px;
+}
+
+.sidenav-button {
+    position: relative;
+    line-height: 45px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    margin: 5px 0;
+    height: auto;
+    cursor: pointer;
+}
+
+.sidenav-button .material-icons {
+    font-size: 2em;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+.sidenav-button .btn-name {
+    margin-left: 60px;
+}
+
+.background-light-grey {
+    background-color: #EEEEEE !important;
+}
+
+.sidenav-search {
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 80%;
+    font-size: 1em;
+}
+
+.mobile-navbar {
+    box-shadow: none;
+    background-color: #EEEEEE !important;
+    color: black !important;
+}

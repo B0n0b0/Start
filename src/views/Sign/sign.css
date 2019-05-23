@@ -1,0 +1,128 @@
+.hide {
+    display: none;
+}
+
+#login-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("https://www.royalconciergerieprivee.com/wp-content/uploads/2017/11/CONCERTS.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.background-darken {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.logo-login {
+    position: absolute;
+    left: 2em;
+    top: 1em;
+    font-size: 3em;
+    color: white;
+}
+
+@media screen and (max-width: 599px) {
+    .logo-login {
+        transform: translate(-50%, 0);
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .login-text-center {
+        text-align: center;
+    }
+
+    .login {
+        text-align: center;
+    }
+}
+
+#login-page .center {
+    /*width: 90%;*/
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#login-page .sign-selector {
+    position: relative;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+.login {
+    color: white;
+    padding: 1em;
+}
+
+.login-text {
+    border-right: 2px solid white;
+}
+
+.login-text-center {
+    position: relative;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+.login h1 {
+    margin: 0;
+    font-size: 2.3em;
+}
+
+.login h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.form-div-button {
+    margin-top: 1.5em;
+}
+
+.form-login-page label {
+    color: white !important;
+}
+
+.form-login-page input {
+    color: white !important;
+}
+
+.btn-rounded {
+    border-radius: 25px !important;
+    margin-left: 10px !important;
+    box-shadow: none !important;
+}
+
+.btn-contained {
+    color: white !important;
+    font-weight: 900 !important;
+    background-color: #f57c00 !important;
+}
+
+.btn-contained:hover {
+    background-color: #e65100 !important;
+}
+
+.btn-outlined {
+    color: white !important;
+    font-weight: 900 !important;
+    background-color: transparent !important;
+    border: 1px solid #f57c00 !important;
+}
+
+.btn-outlined:hover {
+    background-color: #e65100 !important;
+    border: 1px solid #e65100 !important;
+}
+
+.visibility-icon {
+    color: white;
+}
