@@ -9,7 +9,7 @@
     "axios": "^0.18.0",
     "google-maps-react": "^2.0.2",
     "material-ui-next-pickers": "^0.0.15",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "paypal-checkout": "^4.0.239",
     "prop-types": "^15.6.0",
     "react": "^16.6.3",
